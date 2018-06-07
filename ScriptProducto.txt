@@ -1,0 +1,12 @@
+create table producto
+(
+id integer primary key autoincrement,
+nombre varchar(20),
+precio decimal(19,2)
+);
+ 
+INSERT INTO producto (nombre,precio) values ('caramelos',09.9);
+INSERT INTO producto (nombre,precio) values('gaseosa',9.99);
+INSERT INTO producto (nombre,precio) values('galleta',4.99);
+
+select * from producto
